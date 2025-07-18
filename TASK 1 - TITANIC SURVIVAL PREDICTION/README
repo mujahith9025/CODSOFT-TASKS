@@ -1,1 +1,35 @@
+# Titanic Survival Prediction 
 
+## Objective
+Build a machine learning model to predict whether a passenger survived the Titanic disaster using the dataset.
+
+## Tools Used
+- Python
+- Pandas, NumPy
+- Seaborn, Matplotlib
+- Scikit-learn
+- Random Forest Classifier
+
+## Features Used
+- Pclass
+- Sex
+- Age
+- SibSp
+- Parch
+- Fare
+- Embarked
+
+## Model
+- RandomForestClassifier
+- Accuracy Achieved: ~82% (varies on split)
+
+## Steps
+1. Data Cleaning & Preprocessing
+2. Feature Encoding
+3. Model Training
+4. Evaluation
+
+## Dataset
+[Source: Kaggle - Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+
+---
