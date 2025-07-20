@@ -1,1 +1,23 @@
+# 🌸 Iris Flower Classification
 
+## 📌 Objective
+Build a classification model that identifies the species of Iris flower (Setosa, Versicolor, Virginica) based on sepal and petal measurements.
+
+## 🛠️ Tools Used
+- Python
+- Pandas, NumPy
+- Seaborn, Matplotlib
+- Scikit-learn
+- Random Forest Classifier
+
+## 📊 Features
+- SepalLengthCm
+- SepalWidthCm
+- PetalLengthCm
+- PetalWidthCm
+
+## 🎯 Output
+- Species (Setosa = 0, Versicolor = 1, Virginica = 2)
+
+## ✅ Accuracy
+- Achieved accuracy ~95% using Random Forest
