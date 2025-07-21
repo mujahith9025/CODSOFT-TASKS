@@ -1,22 +1,44 @@
-# 🎬 IMDb Movie Rating Prediction (India)
+Movie Rating Prediction with Python
 
-## 📌 Objective
-Build a regression model to predict the IMDb rating of Indian movies based on features like genre, year, and runtime.
+This project is part of my Data Science Internship at CodSoft. It focuses on predicting IMDb movie ratings based on a variety of features using Python and machine learning techniques.
 
-## 🛠️ Tools Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
+Objective
 
-## 📊 Dataset Columns Used
-- Series_Title
-- Released_Year
-- Runtime
-- Genre
+To build a regression model that can predict the IMDb rating of a movie using features such as genre, director, cast, runtime, votes, and more.
 
-## 🧠 Model Used
-- Linear Regression
+Techniques Used
 
-## 🔗 Dataset
-Included in the repo: `IMDb Movies India.csv`
+Data preprocessing
+Feature engineering
+Exploratory Data Analysis (EDA)
+Correlation matrix and visualizations
+Model training with:
+Linear Regression
+Random Forest Regressor
+Decision Tree Regressor
+Model evaluation (MAE, MSE, R² Score)
+
+Key Highlights
+
+Handling of missing values
+Label encoding for categorical data
+Use of regression models for prediction
+Visual insights on rating distribution, correlation, and feature importance
+
+Evaluation Metrics
+
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+R² Score (Coefficient of Determination)
+
+Requirements
+
+numpy  
+pandas  
+matplotlib  
+seaborn  
+scikit-learn
+
+Dataset
+
+You can use the dataset named IMDb Movies India.csv which should be placed inside the dataset/ folder. This dataset contains information about Indian movies and their IMDb ratings.
