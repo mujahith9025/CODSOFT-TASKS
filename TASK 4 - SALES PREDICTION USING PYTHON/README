@@ -1,1 +1,45 @@
+Sales Prediction using Python
 
+This project is part of my Data Science Internship at CodSoft. It involves building a regression model to predict sales based on advertising budgets in TV, radio, and newspaper.
+
+Objective
+
+To predict the sales of a product based on the amount spent on advertising across three different media:
+TV
+Radio
+Newspaper
+
+Techniques Used
+
+Data cleaning and preparation
+Exploratory Data Analysis (EDA)
+Correlation analysis
+Regression modeling using:
+Linear Regression
+Model evaluation
+
+Key Highlights
+
+Heatmaps and scatter plots for visualization
+Fitting  linear model to the data
+Comparison of actual vs predicted sales
+Use of regression metrics to evaluate performance
+
+Evaluation Metrics
+
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+R² Score
+
+Requirements
+
+numpy  
+pandas  
+matplotlib  
+seaborn  
+scikit-learn
+
+Dataset
+
+The dataset used is advertising.csv which includes columns for advertising spend and corresponding sales. It should be placed in the dataset/ folder.
